@@ -50,7 +50,7 @@ function checkCredentials() {
     if (correctEmails.includes(email)) {
         // فحص إذا كان كلمة المرور موجودة في المصفوفة المقابلة
         if (correctPasswords[correctEmails.indexOf(email)] === password) {
-            window.location.href = "../List/Home/index.html";
+            window.location.href = "List/Home/index.html";
         } else {
             alert("الرقم القومي أو كلمة مرور غير صحيحة");
         }
